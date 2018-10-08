@@ -5,7 +5,7 @@ title: How to Get iPhone Emojis for Your Android
 class: post-template
 author: kd
 cover: /assets/img/blog/emoji.jpg
-tag: android, emoji
+tag: [How To]
 navigation: true
 ---
 `HTC or Android users, quickly update your old emojis`
