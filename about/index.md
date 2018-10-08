@@ -8,10 +8,19 @@ class: page-template
 subclass: 'post page'
 ---
 
-Ghost is professional publishing platform designed for modern journalism. This is a demo site of a basic Ghost install to give you a general sense of what a new Ghost site looks like when set up for the first time.
+## GetIdea
 
-> If you'd like to set up a site like this for yourself, head over to [Ghost.org](https://ghost.org/) and start a free 14 day trial to give Ghost a try!
+Enter the best site for instant ideas.
+{:.lead}
 
-If you're a developer: Ghost is a completely open source (MIT) Node.js application built on a JSON API with an Ember.js admin client. It works with MySQL and SQLite, and is publicly available [on Github](https://github.com/TryGhost/ghost).
+ # enter image url here
 
-If you need help with using Ghost, you'll find a ton of useful articles on [our knowledgebase](https://help.ghost.org/), as well as extensive [developer documentation](https://docs.ghost.org/).
+Being launched in June 2018, [GetIdea](https://getidea.me) is one of the fastest growing startups in India. In a short span, we've been a leading source of technology news on the internet. As GetIdea continues to expand its readership, we aim to provide in-depth reporting and redefining the digital media with the constant innovation.
+
+We offer timely analysis and in-person experiences that form the basis of our professional articles. Our editorial section is a reflection of the emerging technology trends – ranging from the internet to desktop, startups to big companies, security, open source and more.
+
+Like to Ping us? Great! Visit our Contact Us page
+Please be free to send us your queries and suggestions. Your suggestion is our next update!!
+Mail us here: "**[Getidea](mailto:info@getidea.me)**"
+
+   [Facebook](https://facebook.com/gettidea) | [Twitter](https://twitter.com/gettidea) | [Instagram](https://instagram.com/gettidea)

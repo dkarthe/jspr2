@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!--
+    Hey there!
+    Thanks for vising.
+    This site is very much a work in progress.
+    Hobby project when I'm able to sqeeze in some down time.
+    I'm not using lots of features of the jasper2 Jekyll theme.
+    The code of this site *needs* a fair bit of housekeeping.
+    Now that you know, enjoy your visit!
+    Rahi
+    -->
 
     <!-- Document Settings -->
     <meta charset="utf-8" />
@@ -14,22 +24,10 @@
     <!-- Styles'n'Scripts -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/built/screen.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/built/screen.edited.css" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/built/syntax.css" />
-    <!-- highlight.js -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
-    <style>.hljs { background: none; }</style>
 
-    <!--[if IE]>
-        <style>
-            p, ol, ul{
-                width: 100%;
-            }
-            blockquote{
-                width: 100%;
-            }
-        </style>
-    <![endif]-->
-    
+    <!-- prism.js styles -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/built/prism.css" />
+
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     {% include head.html %}
 
@@ -58,15 +56,12 @@
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a> &copy; {{  site.time | date: '%Y' }}</section>
-                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
-                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
-                    <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
-                <nav class="site-footer-nav">
+                <section class="copyright"><a href="https://getidea.me/" target="_blank">GetIdea © </a>{{  site.time | date: '%Y' }}</section>
+                <nav class="site-footer-nav">                    
                     <a href="{{ site.baseurl }}">Latest Posts</a>
-                    {% if site.facebook %}<a href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener">Facebook</a>{% endif %}
-                    {% if site.twitter %}<a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">Twitter</a>{% endif %}
-                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                    <a href="{{site.baseurl}}credits/">Credits</a>
+                    <a href="{{ site.baseurl }}privacy-&-cookies-policy/">Privacy</a>
+                    <a href="mailto:xy@datamail.in">Contact</a                  
                 </nav>
             </div>
         </footer>
@@ -88,13 +83,8 @@
         </div>
     {% endif %}
 
-    <!-- highlight.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
-    <script>$(document).ready(function() {
-      $('pre code').each(function(i, block) {
-        hljs.highlightBlock(block);
-      });
-    });</script>
+    <!-- prism.js -->
+    <script type="text/javascript" src="{{ site.baseurl }}assets/js/prism.js"></script>
 
     <!-- jQuery + Fitvids, which makes all video embeds responsive -->
     <script

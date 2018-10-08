@@ -1,7 +1,7 @@
 speeches:
   name: speeches
   description: Some of the greatest words ever spoken.
-  cover: assets/images/speeches.jpg
+  cover: assets/img/speeches.jpg
 fiction:
   name: fiction
   description: False
@@ -9,8 +9,308 @@ fiction:
 fables:
   name: fables
   description: A series of short stories that make you think.
-  cover: assets/images/fables.jpg
+  cover: assets/img/fables.jpg
 getting-started:
   name: getting-started
+  description: False
+  cover: False
+canva:
+  name: canva
+  description: False
+  cover: False
+chuckles:
+  name: chuckles
+  description: False
+  cover: False
+cloud-computing:
+  name: cloud-computing
+  description: False
+  cover: False
+digital-literacy:
+  name: digital-literacy
+  description: False
+  cover: False
+fables:
+  name: fables
+  description: False
+  cover: False
+fiction:
+  name: fiction
+  description: False
+  cover: False
+fundraising:
+  name: fundraising
+  description: False
+  cover: False
+getting-started:
+  name: getting-started
+  description: False
+  cover: False
+ict:
+  name: ict
+  description: False
+  cover: False
+images:
+  name: images
+  description: False
+  cover: False
+marketing:
+  name: marketing
+  description: False
+  cover: False
+movie-reactions:
+  name: movie-reactions
+  description: False
+  cover: False
+privacy:
+  name: privacy
+  description: False
+  cover: False
+productivity:
+  name: productivity
+  description: False
+  cover: False
+psychology:
+  name: psychology
+  description: False
+  cover: False
+quotes:
+  name: quotes
+  description: False
+  cover: False
+security:
+  name: security
+  description: False
+  cover: False
+speeches:
+  name: speeches
+  description: False
+  cover: False
+technology:
+  name: technology
+  description: False
+  cover: False
+transit:
+  name: transit
+  description: False
+  cover: False
+ttc:
+  name: ttc
+  description: False
+  cover: False
+twitart:
+  name: twitart
+  description: False
+  cover: False
+web-apps:
+  name: web-apps
+  description: False
+  cover: False
+leisure:
+  name: leisure
+  description: False
+  cover: False
+tv-and-movies:
+  name: tv-and-movies
+  description: False
+  cover: False
+netflix:
+  name: netflix
+  description: False
+  cover: False
+movies:
+  name: movies
+  description: False
+  cover: https://i.imgur.com/YV2O1Av.jpg
+shows:
+  name: shows
+  description: False
+  cover: False
+cooking:
+  name: cooking
+  description: False
+  cover: False
+recipes:
+  name: recipes
+  description: False
+  cover: False
+photography:
+  name: photography
+  description: False
+  cover: False
+graphic-design:
+  name: graphic-design
+  description: False
+  cover: False
+travel:
+  name: travel
+  description: False
+  cover: False
+tech:
+  name: tech
+  description: False
+  cover: False
+web:
+  name: web
+  description: False
+  cover: False
+trello:
+  name: trello
+  description: False
+  cover: False
+ghost:
+  name: ghost
+  description: False
+  cover: False
+salesforce:
+  name: salesforce
+  description: False
+  cover: False
+cpanel:
+  name: cpanel
+  description: False
+  cover: False
+softaculous:
+  name: softaculous
+  description: False
+  cover: False
+google-sheets:
+  name: google-sheets
+  description: False
+  cover: False
+slack:
+  name: slack
+  description: False
+  cover: False
+mindmup:
+  name: mindmup
+  description: False
+  cover: False
+desktop:
+  name: desktop
+  description: False
+  cover: False
+ubuntu:
+  name: ubuntu
+  description: False
+  cover: False
+atom:
+  name: atom
+  description: False
+  cover: False
+chrome:
+  name: chrome
+  description: False
+  cover: False
+extensions:
+  name: extensions
+  description: False
+  cover: False
+virtualbox:
+  name: virtualbox
+  description: False
+  cover: False
+windows:
+  name: windows
+  description: False
+  cover: False
+mobile:
+  name: mobile
+  description: False
+  cover: False
+android:
+  name: android
+  description: False
+  cover: False
+ios:
+  name: ios
+  description: False
+  cover: False
+soul:
+  name: soul
+  description: False
+  cover: False
+parenting:
+  name: parenting
+  description: False
+  cover: False
+infant:
+  name: infant
+  description: False
+  cover: False
+toddler:
+  name: toddler
+  description: False
+  cover: False
+labour:
+  name: labour
+  description: False
+  cover: False
+consulting:
+  name: consulting
+  description: False
+  cover: False
+employment:
+  name: employment
+  description: False
+  cover: False
+pet-projects:
+  name: pet-projects
+  description: False
+  cover: False
+tips:
+  name: tips
+  description: False
+  cover: False
+tutorial:
+  name: tutorial
+  description: False
+  cover: False
+experiments:
+  name: experiments
+  description: False
+  cover: False
+reviews:
+  name: reviews
+  description: False
+  cover: False
+reflection:
+  name: reflection
+  description: False
+  cover: False
+observations:
+  name: observations
+  description: False
+  cover: False
+entertainment:
+  name: entertainment
+  description: False
+  cover: False
+lastpass:
+  name: lastpass
+  description: False
+  cover: False
+humour:
+  name: humour
+  description: False
+  cover: False
+rebelmouse:
+  name: rebelmouse
+  description: False
+  cover: False
+vivaldi:
+  name: vivaldi
+  description: False
+  cover: False
+google-docs:
+  name: google-docs
+  description: False
+  cover: False
+gmail:
+  name: gmail
+  description: False
+  cover: False
+command-line:
+  name: command-line
   description: False
   cover: False
