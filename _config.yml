@@ -1,0 +1,62 @@
+# Jekyll configuration
+markdown: kramdown
+highlighter: none
+paginate: 10 # it will paginate after this number
+language: 'en-uk'
+
+# edit baseurl to simply '/' if using as your personal page (instead of a project page)
+baseurl: '/'
+
+# Website info
+title: GetIdea
+description: Get The Latest Tech Ideas
+cover: assets/img/bgg.jpg
+logo: assets/img/blog-icon.png
+logo_dark: assets/img/favicon.png
+favicon: assets/img/favicon.ico
+production_url: https://upi.me
+source_url: https://upi.me
+
+# Social info
+navigation: True # show the navbar links
+subscribers: True # you need to connect an external service for this to work,
+# if 'True' the submit button is disabled for now, but you can change that
+# by editing `_includes/subscribe-form.html`
+twitter: gettidea # replace by your username
+facebook: gettidea #replace with your username
+
+# Disqus
+disqus: true
+disqus_shortname: getidea # replace with your disqus username
+
+# Google Analytics
+# google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+
+# Permalinks
+permalink: /:title
+
+# Authors' info in `_data/authors.yml`
+# Tags' info in `_data/tags_info.yml`
+
+# gems and other configs
+plugins: [jekyll-paginate, jekyll-feed, jemoji]
+exclude: [vendor]
+
+feed:
+  path: feed.xml
+
+# Additional settings available on the front-matter
+# Site logo in the index.html (as in demo.ghost.io)
+# Author's page cover in _layouts/author.html
+# The same for page.html and tag.html layouts
+# Post's page cover as a per-post basis _posts/...
+# Disqus comments as a per-post basis
+# ...
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - changelog.md
+  - vendor
