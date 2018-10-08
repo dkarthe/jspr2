@@ -308,7 +308,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     fill: #fff;
 }
 
-.social-link-fb svg {
+.social-link-li svg {
     height: 1.5rem;
 }
 
@@ -323,6 +323,23 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .social-link-rss svg {
     height: 1.9rem;
 }
+
+/* Site Tag Styles */
+
+.site-tags {
+    background: #fff;
+    padding: 0.1em 0.6em;
+    margin: 0.3em;
+    border-radius: 10px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.site-tags:hover {
+  background: #f1f1f1;
+}
+
+/* End Site Tag Styles */
 
 .subscribe-button {
     display: block;
@@ -426,7 +443,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .post-card-tags {
-    display: block;
+    display: inline-block;
     margin-bottom: 4px;
     color: var(--midgrey);
     font-size: 1.2rem;
@@ -551,13 +568,14 @@ The first (most recent) post in the list is styled to be bigger than the others 
 
 .post-full-header {
     margin: 0 auto;
-    padding: 6vw 3vw 3vw;
+    padding: 6vw 3vw 1vw;
     max-width: 1040px;
     text-align: center;
 }
+
 @media (max-width: 500px) {
     .post-full-header {
-        padding: 14vw 3vw 10vw;
+        padding: 14vw 3vw 2vw;
     }
 }
 
@@ -573,6 +591,10 @@ The first (most recent) post in the list is styled to be bigger than the others 
 
 .post-full-meta-date {
     color: var(--blue);
+}
+
+.post-full-tags {
+    font-size: 0.7em;
 }
 
 .post-full-title {
@@ -1558,6 +1580,7 @@ Usage (In Ghost editor):
     .floating-header-logo a {
         color: #2e2e2e;
     }
+    .floating-active,
     .floating-header-title,
     .floating-header-divider {
         visibility: hidden;
